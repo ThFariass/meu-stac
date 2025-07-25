@@ -1,0 +1,134 @@
+{
+  "type": "Collection",
+  "id": "ICEYE-X43",
+  "stac_version": "1.1.0",
+  "description": "Imagens da cole\u00e7\u00e3o ICEYE-X43.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SM_920010173_20250605T030311/ICEYE_X43_GRD_SM_920010173_20250605T030311.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SM_920010271_20250605T150346/ICEYE_X43_GRD_SM_920010271_20250605T150346.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920012238_20250616T141618/ICEYE_X43_GRD_SLH_920012238_20250616T141618.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920013209_20250621T143543/ICEYE_X43_GRD_SLH_920013209_20250621T143543.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SM_920014762_20250629T133453/ICEYE_X43_GRD_SM_920014762_20250629T133453.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015098_20250701T030627/ICEYE_X43_GRD_SLH_920015098_20250701T030627.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015098_20250701T030627/ICEYE_X43_GRD_SLH_920015098_20250701T030627.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015143_20250630T030433/ICEYE_X43_GRD_SLH_920015143_20250630T030433.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015143_20250630T030433/ICEYE_X43_GRD_SLH_920015143_20250630T030433.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015144_20250702T151535/ICEYE_X43_GRD_SLH_920015144_20250702T151535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015144_20250702T151535/ICEYE_X43_GRD_SLH_920015144_20250702T151535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015222_20250702T031010/ICEYE_X43_GRD_SLH_920015222_20250702T031010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015222_20250702T031010/ICEYE_X43_GRD_SLH_920015222_20250702T031010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015264_20250703T031354/ICEYE_X43_GRD_SLH_920015264_20250703T031354.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015264_20250703T031354/ICEYE_X43_GRD_SLH_920015264_20250703T031354.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015385_20250705T032338/ICEYE_X43_GRD_SLH_920015385_20250705T032338.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015385_20250705T032338/ICEYE_X43_GRD_SLH_920015385_20250705T032338.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015558_20250706T032729/ICEYE_X43_GRD_SLH_920015558_20250706T032729.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ICEYE_X43_GRD_SLH_920015558_20250706T032729/ICEYE_X43_GRD_SLH_920015558_20250706T032729.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -69.51394379374989,
+          -30.452864427667354,
+          -50.830515886123365,
+          3.0241975340684
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-05T03:03:11.555805Z",
+          "2025-07-06T03:27:34.981672Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

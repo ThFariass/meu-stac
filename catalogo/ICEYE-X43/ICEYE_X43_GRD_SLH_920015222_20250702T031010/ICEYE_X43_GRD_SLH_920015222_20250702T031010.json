@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ICEYE_X43_GRD_SLH_920015222_20250702T031010",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -64.58147629058931,
+          -9.203401024817664
+        ],
+        [
+          -64.63072581651,
+          -9.21371142645987
+        ],
+        [
+          -64.6400406578773,
+          -9.167052180949636
+        ],
+        [
+          -64.59143915061603,
+          -9.15687887685914
+        ],
+        [
+          -64.58147629058931,
+          -9.203401024817664
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -64.6400406578773,
+    -9.21371142645987,
+    -64.58147629058931,
+    -9.15687887685914
+  ],
+  "properties": {
+    "end_datetime": "2025-07-02T03:10:16.021717",
+    "acquisition_mode": "spotlight",
+    "view:off_nadir": "right",
+    "sat:orbit_state": "ascending",
+    "view:incidence_angle": 25.526000508809553,
+    "sar:polarizations": [
+      "VV"
+    ],
+    "product_name": "ICEYE_X43_GRD_SLH_920015222_20250702T031010.tif",
+    "platform": "ICEYE-X43",
+    "datetime": "2025-07-02T03:10:10.562849Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X43/920015222_2025-07-11T11_22_37Z/workvol/output/ICEYE_X43_QUICKORTHO_SLH_920015222_20250702T031010.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata_xml": {
+      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X43/920015222_2025-07-11T11_22_37Z/workvol/output/ICEYE_X43_SLC_SLH_920015222_20250702T031010.xml",
+      "type": "application/xml",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X43/920015222_2025-07-11T11_22_37Z/workvol/output/ICEYE_X43_THUMBNAIL_SLH_920015222_20250702T031010.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "collection": "ICEYE-X43"
+}
