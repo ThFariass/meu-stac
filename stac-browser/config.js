@@ -33,7 +33,7 @@ module.exports = {
     buildTileUrlTemplate: null,
     stacProxyUrl: null,
     pathPrefix: "/meu-stac/stac-browser/",
-    historyMode: "history",
+    historyMode: "hash",
     cardViewMode: "cards",
     cardViewSort: "asc",
     showKeywordsInItemCards: false,

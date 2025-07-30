@@ -1,7 +1,11 @@
 {
   "type": "Feature",
   "stac_version": "1.1.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json"
+  ],
   "id": "ICEYE_X39_GRD_SM_920014790_20250630T021410",
   "geometry": {
     "type": "Polygon",
@@ -46,6 +50,14 @@
       "VV"
     ],
     "product_name": "ICEYE_X39_GRD_SM_920014790_20250630T021410.tif",
+    "centroid": {
+      "lon": -51.51291065793172,
+      "lat": 1.3360781126071561
+    },
+    "corner:first_far": "13261 1 1.0702960917618998 -51.308851213088175",
+    "corner:first_near": "1 1 1.0108149314028432 -51.60092407034553",
+    "corner:last_near": "1 26639 1.6018610585645723 -51.71727935722954",
+    "corner:last_far": "13261 26639 1.6610567262289535 -51.42582121875734",
     "platform": "ICEYE-X39",
     "datetime": "2025-06-30T02:14:10.944341Z"
   },
@@ -68,24 +80,83 @@
   ],
   "assets": {
     "data": {
-      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_QUICKORTHO_SM_920014790_20250630T021410.tif",
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_GRD_SM_920014790_20250630T021410.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ICEYE_X39_GRD_SM_920014790_20250630T021410.tif",
       "roles": [
         "data"
       ]
     },
-    "metadata_xml": {
-      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_SLC_SM_920014790_20250630T021410.xml",
+    "metadata_grd_xml": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_GRD_SM_920014790_20250630T021410.xml",
       "type": "application/xml",
+      "title": "ICEYE_X39_GRD_SM_920014790_20250630T021410.xml",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "quicklook_kml": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_QUICKLOOK_SM_920014790_20250630T021410.kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "title": "ICEYE_X39_QUICKLOOK_SM_920014790_20250630T021410.kml",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_THUMBNAIL_SM_920014790_20250630T021410.png",
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_QUICKLOOK_SM_920014790_20250630T021410.png",
       "type": "image/png",
+      "title": "ICEYE_X39_QUICKLOOK_SM_920014790_20250630T021410.png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "quickortho_kmz": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_QUICKORTHO_SM_920014790_20250630T021410.kmz",
+      "type": "application/vnd.google-earth.kmz",
+      "title": "ICEYE_X39_QUICKORTHO_SM_920014790_20250630T021410.kmz",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "quickortho_tif": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_QUICKORTHO_SM_920014790_20250630T021410.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ICEYE_X39_QUICKORTHO_SM_920014790_20250630T021410.tif",
+      "roles": [
+        "visual"
+      ]
+    },
+    "data_slc_h5": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_SLC_SM_920014790_20250630T021410.h5",
+      "type": "application/x-hdf5",
+      "title": "ICEYE_X39_SLC_SM_920014790_20250630T021410.h5",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "metadata_slc_xml": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_SLC_SM_920014790_20250630T021410.xml",
+      "type": "application/xml",
+      "title": "ICEYE_X39_SLC_SM_920014790_20250630T021410.xml",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail_json": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_THUMBNAIL_SM_920014790_20250630T021410.json",
+      "type": "application/json",
+      "title": "ICEYE_X39_THUMBNAIL_SM_920014790_20250630T021410.json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail_kml": {
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014790_2025-07-11T11_08_06Z/workvol/output/ICEYE_X39_THUMBNAIL_SM_920014790_20250630T021410.kml",
+      "type": "application/vnd.google-earth.kml+xml",
+      "title": "ICEYE_X39_THUMBNAIL_SM_920014790_20250630T021410.kml",
+      "roles": [
+        "metadata"
       ]
     }
   },
