@@ -68,21 +68,21 @@
   ],
   "assets": {
     "data": {
-      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_QUICKORTHO_SM_920014961_20250701T020954.tif",
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_QUICKORTHO_SM_920014961_20250701T020954.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "roles": [
         "data"
       ]
     },
     "metadata_xml": {
-      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_SLC_SM_920014961_20250701T020954.xml",
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_SLC_SM_920014961_20250701T020954.xml",
       "type": "application/xml",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "http://192.168.56.1:8080/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_THUMBNAIL_SM_920014961_20250701T020954.png",
+      "href": "http://172.21.5.20/meu-stac/imagens_organizadas_por_satelite/ICEYE-X39/920014961_2025-07-11T11_21_17Z/workvol/output/ICEYE_X39_THUMBNAIL_SM_920014961_20250701T020954.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
