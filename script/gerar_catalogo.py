@@ -8,7 +8,7 @@ from shapely.geometry import Polygon, mapping
 
 # --- CONFIGURAÇÃO ---
 # root_url = 'http://localhost/meu-stac'
-root_url = 'http://192.168.56.1:8080/meu-stac'
+root_url = 'http://172.21.5.20/meu-stac'
 source_dir = '../imagens_organizadas_por_satelite' 
 catalog_dir = '../catalogo'
 # --------------------
